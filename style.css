@@ -1,0 +1,334 @@
+/* Homepage Styling */
+.background {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/037/246/742/non_2x/ai-generated-make-up-products-advertisment-background-with-copy-space-free-photo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+}
+
+.content {
+    padding: 20px;
+    color: #da9cb9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.repeat {
+    mask-repeat: no-repeat;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: center;
+}
+
+.navbar {
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(107, 106, 106);
+    font-weight: 600;
+    padding: 10px;
+    font-size: large;
+}
+
+li a:hover {
+    transition: 0.5s;
+}
+.navbar a:hover {
+    color: rgb(94, 12, 97);
+  }
+
+.heading {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    color: black;
+    transform: rotateY(-50%);
+}
+
+.heading h1 {
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.carousel-item {
+    height: 700px;
+    width: 700px;
+    object-fit: cover;
+    float: left;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #cca1c8;
+    background: transparent;
+    color: #cc4598;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: #da9cb9;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+    border: none;
+}
+
+.btn {
+    color: #cc4598;
+  
+}
+
+@media (max-width: 992px) {
+    .navbar-brand img {
+        width: 300px;
+    }
+
+    .heading h1 {
+        font-size: 2rem;
+    }
+
+    .heading button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    .heading h1 {
+        font-size: 1.75rem;
+    }
+
+    .heading button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        width: 60px;
+    }
+
+    .heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .heading button {
+        padding: 4px 8px;
+        font-size: 0.7rem;
+    }
+}
+
+
+
+
+/* ABOUT US STYLING */
+
+
+.container {
+    background-color: #cca1c8;
+}
+
+.container-fluid {
+    background-color: pink;
+}
+
+.text {
+    color: #cc4598;
+}
+
+.btn {
+    color: #cc4598;
+    background-color: #a13a65;
+}
+
+.image-fluid {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .fs-1 {
+        font-size: 1.5rem
+    }
+
+    .container-fluid {
+        padding: 1rem
+    }
+
+    .mt-5 {
+        margin-top: 1rem
+    }
+
+    .p-5 {
+        padding: 1rem
+    }
+
+    .carousel-item img {
+        height: 900px;
+        object-fit: cover;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .fs-1 {
+        font-size: 1.25rem
+    }
+
+    .text-dark {
+        font-size: 1rem;
+    }
+
+    .text-warning {
+        font-size: 1rem;
+    }
+
+    .text-primary {
+        font-size: 1rem;
+    }
+
+    .h1 {
+        font-size: 1.5rem
+    }
+
+    .h2 {
+        font-size: 1.25rem
+    }
+
+    .carousel-item img {
+        height: 900px;
+    }
+}
+
+/* services wall */
+
+.wall {
+    background-image: linear-gradient(to right, rgb(143, 40, 126), rgba(148, 138, 138, 0.192));
+}
+
+
+/* services content color */
+
+.bb {
+    background-color: rgb(205, 158, 233);
+    color: rgb(62, 9, 87);
+}
+
+
+/* services content background  */
+
+.bg {
+    background-image: url(Assets/spa2.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* contact wall */
+
+.wall1 {
+    background-image: linear-gradient(to bottom right, rgba(148, 138, 138, 0.192), rgb(143, 40, 126));
+}
+
+
+/* contact social media links */
+
+.contactbg {
+    height: 120px;
+}
+
+
+/* services horizontal line */
+
+.rounded {
+    border-top: 8px solid purple;
+    border-radius: 5px;
+    width: 80%;
+}
+
+
+/* contact form */
+
+.lady {
+    float: right;
+}
+
+/* footer */
+
+
+.footer {
+    background-color: rgb(143, 126, 145);
+    color: white;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
